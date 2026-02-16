@@ -1,6 +1,6 @@
 # WBA Analytics - Документация
 
-### <span style="color:darkgreen;">Интро</span>
+### <span style="color:green;">Интро</span>
 
 Документация описывает внедрение WBA Analytics SDK, а также e-commerce события пользователей, включая логирование источников взаимодействия пользователя с товарами (tail)
 
