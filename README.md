@@ -1,5 +1,7 @@
 # WBA Analytics - Документация
 
+### <span style="color:darkgreen;">Интро</span>
+
 Документация описывает внедрение WBA Analytics SDK, а также e-commerce события пользователей, включая логирование источников взаимодействия пользователя с товарами (tail)
 
 * [WBA Analytics SDK iOS](https://github.com/wildberries-tech/wba_analytics_sdk_ios)
