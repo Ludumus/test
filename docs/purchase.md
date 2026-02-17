@@ -1,18 +1,18 @@
 # WBA Analytics - Техническое задание - purchase
 
-### <span style="color:darkgreen;">Интро</span>
+### $$\color{green}\text{Интро}$$
 
 На сайте и в приложениях iOS/Android пользователь может оформить заказ
 
-### <span style="color:darkgreen;">Дополнительная информация</span>
+### $$\color{green}\text{Дополнительная \ информация}$$
 
 При наличии в заказе двух и более идентичных товаров каждый товар должен быть представлен отдельным элементом массива, где значение **quantity** = 1.
 
-### <span style="color:darkgreen;">Ожидаемый результат</span>
+### $$\color{green}\text{Ожидаемый \ результат}$$
 
 Событие `purchase` размечено вместе с атрибутами объектов **items** (Mobile SDK)/ **products** (Web SDK) согласно таблице ниже
 
-### <span style="color:darkgreen;">Техническое задание</span>
+### $$\color{green}\text{Техническое \ задание}$$
 
 **Событие:**
 `purchase` - факт оформленного заказа
@@ -42,4 +42,4 @@
 |  |  |  | category5 | ID категории 5 уровня или название | String |
 | rid | Уникальный ID заказа конкретной единицы товара в заказе (если есть) | String | rid | Уникальный ID заказа конкретной единицы товара в заказе (если есть) | String |
 
-[Примеры вызовов функций](https://github.com/wildberries-tech/wba_analytics_docs/blob/develop/docs/example_function_call.md)
+[Примеры вызовов функций](https://github.com/wildberries-tech/wba_analytics_docs/blob/main/docs/example_function_call.md)
