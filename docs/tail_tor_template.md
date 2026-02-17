@@ -1,6 +1,6 @@
 # WBA Analytics - Техническое задание - tail - шаблон
 
-### <span style="color:darkgreen;">Интро</span>
+### $$\color{green}\text{Интро}$$
 
 {Опишите, какую выдачу товаров вы хотели бы разметить с помощью tail}
 
@@ -11,18 +11,18 @@
 | **Как перейти к выдаче** | {Вставьте скриншот} | {Вставьте скриншот} | {Вставьте скриншот} | {Вставьте скриншот} |
 | **Выдача** | {Вставьте скриншот} | {Вставьте скриншот} | {Вставьте скриншот} | {Вставьте скриншот} |
 
-### <span style="color:darkgreen;">Дополнительная информация</span>
+### $$\color{green}\text{Дополнительная \ информация}$$
 
 * В рамках этой задачи нужно понимать что такое “продуктовый атрибут”. В [этом](https://github.com/wildberries-tech/wba_analytics_docs/blob/develop/docs/view_item_in_list.md) ТЗ внедряются продуктовые атрибуты, можно посмотреть пример.
 * {Предоставьте дополнительную информацию, если она есть}
 
-### <span style="color:darkgreen;">Ожидаемый результат</span>
+### $$\color{green}\text{Ожидаемый \ результат}$$
 
 После реализации этой задачи в e-com воронке для товаров размечаемой выдачи заполняется продуктовый атрибут `tail_object` (Mobile) / `tailObject` (Web)
 
 Передача атрибута между событиями реализована при помощи архитектуры, описанной в [этой](https://github.com/wildberries-tech/wba_analytics_docs/blob/develop/docs/tail_architecture.md) задаче
 
-### <span style="color:darkgreen;">Задача</span>
+### $$\color{green}\text{Задача}$$
 
 При передаче событий из ecom-воронки необходимо добавить новый атрибут в объект “items” (для Mobile) и “products” (для Web)
 
@@ -42,8 +42,8 @@
 
 | **Название** | **Значение** | **Формат** | **Откуда взять** |
 | --- | --- | --- | --- |
-| {term_name_1} | {Опишите значение} | String | **Эндпоинт**: {[https://catalog.test.ru/](https://catalog.n11.com/exactmatch/v18/search)products}<br />**Путь**: {items.name_1} |
-| {term_name_2} | {Опишите значение} | String | **Эндпоинт**: {[https://catalog.test.ru/](https://catalog.n11.com/exactmatch/v18/search)products}<br />**Путь**: {items.name_2} |
+| {term_name_1} | {Опишите значение} | String | **Эндпоинт**: {https://catalog.test.ru}<br />**Путь**: {items.name_1} |
+| {term_name_2} | {Опишите значение} | String | **Эндпоинт**: {https://catalog.test.ru}<br />**Путь**: {items.name_2} |
 
 **Пример:**
 
@@ -51,12 +51,12 @@
 tail_object:
 
 { 
- location: "XXX",
- index: 1, 
- platform: "iOS", 
- terms: {
-         term_name_1: "test_1",
-         term_name_2: "test_2"
+ "location": "XXX",
+ "index": 1, 
+ "platform": "iOS", 
+ "terms": {
+         "term_name_1": "test_1",
+         "term_name_2": "test_2"
          }
 }
 ```
