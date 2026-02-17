@@ -42,13 +42,13 @@
 
 | **Название** | **Значение** | **Формат** | **Откуда взять** |
 | --- | --- | --- | --- |
-| {term_name_1} | {Опишите значение} | String | **Эндпоинт**: {https://catalog.test.ru}<br />**Путь**: {items.name_1} |
-| {term_name_2} | {Опишите значение} | String | **Эндпоинт**: {https://catalog.test.ru}<br />**Путь**: {items.name_2} |
+| {term_name_1} | {Опишите значение} | String | **Эндпоинт**: {[https://catalog.test.ru](https://catalog.test.ru)}<br />**Путь**: {items.name_1} |
+| {term_name_2} | {Опишите значение} | String | **Эндпоинт**: {[https://catalog.test.ru](https://catalog.test.ru)}<br />**Путь**: {items.name_2} |
 
 **Пример:**
 
 ```json
-tail_object:
+"tail_object":
 
 { 
  "location": "XXX",
