@@ -1,18 +1,18 @@
 # WBA Analytics - Техническое задание - view_item
 
-### <span style="color:darkgreen;">Интро</span>
+### $$\color{green}\text{Интро}$$
 
 На сайте и в приложениях iOS/Android пользователь может посетить карточку товара
 
-### <span style="color:darkgreen;">Дополнительная информация</span>
+### $$\color{green}\text{Дополнительная \ информация}$$
 
 Нет
 
-### <span style="color:darkgreen;">Ожидаемый результат</span>
+### $$\color{green}\text{Ожидаемый \ результат}$$
 
 Событие `view_item` размечено вместе с атрибутами объектов **items** (Mobile SDK)/ **products** (Web SDK) согласно таблице ниже
 
-### <span style="color:darkgreen;">Техническое задание</span>
+### $$\color{green}\text{Техническое \ задание}$$
 
 **Событие:**
 `view_item` - посещение карточки товара
@@ -41,4 +41,4 @@
 |  |  |  | category4 | ID категории 4 уровня или название | String |
 |  |  |  | category5 | ID категории 5 уровня или название | String |
 
-[Примеры вызовов функций](https://github.com/wildberries-tech/wba_analytics_docs/blob/develop/docs/example_function_call.md)
+[Примеры вызовов функций](https://github.com/wildberries-tech/wba_analytics_docs/blob/main/docs/example_function_call.md)
