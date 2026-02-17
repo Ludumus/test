@@ -64,8 +64,8 @@ Tail для любого товара сохраняется в хранилищ
 
 Схема:
 
-![](https://github.com/Ludumus/test/blob/main/assets/scheme.png){width=749px}
+![](https://github.com/Ludumus/test/blob/main/assets/scheme.png)
 
 Последовательность:
 
-![](https://github.com/Ludumus/test/blob/main/assets/sequence.png){width=70%}
+![](https://github.com/Ludumus/test/blob/main/assets/sequence.png)
