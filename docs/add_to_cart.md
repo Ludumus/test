@@ -1,18 +1,18 @@
 # WBA Analytics - Техническое задание - add_to_cart
 
-### <span style="color:darkgreen;">Интро</span>
+### ### $$\color{green}\text{Интро}$$
 
 На сайте и в приложениях iOS/Android пользователь может добавить товар в корзину
 
-### <span style="color:darkgreen;">Дополнительная информация</span>
+### $$\color{green}\text{Дополнительная \ информация}$$
 
 Как правило, добавить товар в корзину можно по кнопкам на сниппетах товаров в выдачах, по кнопкам внутри карточек товаров, а также в разделах “Корзина” и “Избранное”
 
-### <span style="color:darkgreen;">Ожидаемый результат</span>
+### $$\color{green}\text{Ожидаемый \ результат}$$
 
 Событие `add_to_cart` размечено вместе с атрибутами объектов **items** (Mobile SDK)/ **products** (Web SDK) согласно таблице ниже
 
-### <span style="color:darkgreen;">Техническое задание</span>
+### $$\color{green}\text{Техническое \ задание}$$
 
 **Событие:**
 `add_to_cart` - добавление товара в корзину
@@ -41,4 +41,4 @@
 |  |  |  | category4 | ID категории 4 уровня или название | String |
 |  |  |  | category5 | ID категории 5 уровня или название | String |
 
-[Примеры вызовов функций](https://github.com/wildberries-tech/wba_analytics_docs/blob/develop/docs/example_function_call.md)
+[Примеры вызовов функций](https://github.com/wildberries-tech/wba_analytics_docs/blob/main/docs/example_function_call.md)
