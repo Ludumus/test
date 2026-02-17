@@ -50,10 +50,10 @@
 ```json
 "tail_object":
 
-{ 
+{
  "location": "XXX",
- "index": 1, 
- "platform": "iOS", 
+ "index": 1,
+ "platform": "iOS",
  "terms": {
          "term_name_1": "test_1",
          "term_name_2": "test_2"
