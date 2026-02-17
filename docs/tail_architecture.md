@@ -64,8 +64,8 @@ Tail для любого товара сохраняется в хранилищ
 
 Схема:
 
-![](https://github.com/wildberries-tech/wba_analytics_docs/blob/develop/assets/scheme.png){width=749px}
+![](https://github.com/wildberries-tech/test/blob/main/assets/scheme.png){width=749px}
 
 Последовательность:
 
-![](https://github.com/wildberries-tech/wba_analytics_docs/blob/develop/assets/sequence.png){width=70%}
+![](https://github.com/wildberries-tech/test/blob/main/assets/sequence.png){width=70%}
