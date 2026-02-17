@@ -1,6 +1,6 @@
 # WBA Analytics - Техническое задание - add_to_cart
 
-### ### $$\color{green}\text{Интро}$$
+### $$\color{green}\text{Интро}$$
 
 На сайте и в приложениях iOS/Android пользователь может добавить товар в корзину
 
